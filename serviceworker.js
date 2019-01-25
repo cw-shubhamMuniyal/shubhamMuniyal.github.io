@@ -18,7 +18,7 @@ self.addEventListener("install", (e) => {
 })
 
 // On fetching some data from app =>
-/*self.addEventListener("fetch", (e) => {
+self.addEventListener("fetch", (e) => {
     console.log("[Service Worker] Fetch", e.request.url);
     var dictUrl = "https://dictionaryapi.com/api/v3/references/learners/json/";
 
@@ -47,4 +47,4 @@ self.addEventListener("install", (e) => {
             })
         )
     }
-})*/
+})
