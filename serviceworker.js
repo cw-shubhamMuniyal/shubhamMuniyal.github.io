@@ -1,7 +1,7 @@
 const staticFiles = [
     './',
     './au.css',
-	'./1614092_shubham(css)'
+	'./1614092_shubham(css)',
     './app.js',
     './login.html'
 ];
