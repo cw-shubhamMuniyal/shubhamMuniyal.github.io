@@ -19,13 +19,13 @@ window.addEventListener('load', async e => {
         }
     }
 	
-	if(navigator.onLine){
+	/*if(navigator.onLine){
         navigator.serviceWorker.controller.postMessage("online");
     }
     else
     {
         displayNotification('No Internet','Please connent to a network to search a new word');
         navigator.serviceWorker.controller.postMessage("offline");
-    }
+    }*/
      
 });
