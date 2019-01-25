@@ -28,3 +28,4 @@ window.addEventListener('load', async e => {
         navigator.serviceWorker.controller.postMessage("offline");
     }
      
+});
