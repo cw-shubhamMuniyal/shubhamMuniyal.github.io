@@ -27,4 +27,4 @@ window.addEventListener('load', async e => {
         displayNotification('No Internet','Please connent to a network to search a new word');
         navigator.serviceWorker.controller.postMessage("offline");
     }
-     await getData();
+     
